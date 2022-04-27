@@ -1,0 +1,28 @@
+body{
+margin: 0px;
+color: white;
+}
+
+.ipl{
+	display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.urk{
+	background-color: red;
+    flex-grow: 2;
+  
+}
+
+.csk{
+	background-color: blue;
+    flex-grow: 2;
+
+}
+
+@media all and (max-width: 350px){
+	.ipl{
+		flex-direction: column;
+	}
+}
