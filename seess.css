@@ -1,0 +1,33 @@
+body{
+	/*background-image: url("Utsav Raj Kharel-DV.jpg");
+    background-repeat: no-repeat;
+    background-size: 760px 600px;
+    background-position: left bottom, right top;*/
+    /*background-color: red;
+    background: linear-gradient(to left, blueviolet, forestgreen);*/
+}
+
+.box{
+	background-color: red;
+	width: 0px;
+	height: 0px;
+	position: relative;
+	left: 300px;
+	top: 0px;
+	/*border-radius: 90px 150px 30px 99px;*/
+	box-shadow: 10px 10px;
+}
+
+/*Css for form*/
+
+.forms{
+	width: 500px;
+	position: relative;
+	top: 120px;
+	left: 490px;
+	background-color: yellow;
+	box-shadow: 10px 10px blue;
+    
+	padding: 40px;
+	/*height: 150px;*/
+}
